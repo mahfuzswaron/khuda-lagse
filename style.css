@@ -1,3 +1,11 @@
-.gap-150 {
-    gap: 150px;
+.btn:focus {
+    outline: none;
+    border: none;
+    /* background-color: non; */
+}
+
+@media screen and (min-width: 1025px) {
+    .gap-150 {
+        gap: 150px;
+    }
 }
