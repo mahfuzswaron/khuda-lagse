@@ -4,8 +4,19 @@
     /* background-color: non; */
 }
 
+.w-full {
+    margin: 0;
+    padding: 0;
+}
+
 @media screen and (min-width: 1025px) {
     .gap-150 {
         gap: 150px;
+    }
+}
+
+@media screen and (min-width:1441px) {
+    .img-fluid {
+        width: 2560px;
     }
 }
