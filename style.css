@@ -1,0 +1,69 @@
+.btn:focus{
+    border: none;
+    outline: none;
+}
+
+.gap-150px{
+    gap: 150px;
+}
+
+
+
+
+/* small mobile  */
+
+@media screen and (max-width: 320px) {
+    .gap-150px{
+        gap: 0;
+    }
+}
+
+/* medium mobile  */
+
+@media screen and (min-width: 321px) and (max-width:376px) {
+    .gap-150px{
+        gap: 0;
+    }
+}
+
+/* large mobile  */
+
+@media screen and (min-width: 375px) and (max-width:426px) {
+    body{
+        background-color: rgb(53, 190, 40);
+    }
+}
+
+/* tab  */
+
+@media screen and (min-width: 425px) and (max-width:769px) {
+    body{
+        background-color: rgb(153, 171, 17);
+    }
+}
+
+/* laptop  */
+
+@media screen and (min-width: 768px) and (max-width:1025px) {
+   
+    .menu-gap{
+        gap: 30px;
+    }
+}
+
+/* large laptop  */
+
+@media screen and (min-width: 1024px) and (max-width:1441px) {
+    .menu-gap{
+        gap: 50px;
+    }
+}
+
+
+/* extra large laptop  */
+
+@media screen and (min-width: 1440px) {
+    .menu-gap{
+        gap: 100px;
+    }
+}
