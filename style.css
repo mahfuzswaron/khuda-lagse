@@ -3,59 +3,73 @@
     outline: none;
 }
 
-.gap-150px{
-    gap: 150px;
+/* .mt-10vw{
+    margin-top: 10vw;
+} */
+
+.banner-title{
+    /* font-size: 7.125rem; */
+    font-size:5rem ;
 }
 
+.banner-paragraph{
+    font-size: 3rem;
+}
+
+.top-25{
+    top: 25%;
+}
 
 
 
 /* small mobile  */
 
 @media screen and (max-width: 320px) {
-    .gap-150px{
-        gap: 0;
-    }
+    
 }
 
 /* medium mobile  */
 
 @media screen and (min-width: 321px) and (max-width:376px) {
-    .gap-150px{
-        gap: 0;
-    }
+   
 }
 
 /* large mobile  */
 
 @media screen and (min-width: 375px) and (max-width:426px) {
-    body{
-        background-color: rgb(53, 190, 40);
-    }
+    
 }
 
 /* tab  */
 
 @media screen and (min-width: 425px) and (max-width:769px) {
-    body{
-        background-color: rgb(153, 171, 17);
+    .banner-title{
+        /* font-size: 7.125rem; */
+        font-size:3rem ;
+    }
+    .banner-paragraph{
+        font-size: 1rem;
     }
 }
 
 /* laptop  */
 
-@media screen and (min-width: 768px) and (max-width:1025px) {
-   
+@media screen and (min-width: 769px) and (max-width:1025px) {
     .menu-gap{
-        gap: 30px;
+        gap: 10vw;
     }
+
+    .banner-paragraph{
+        font-size: 2rem;
+    }
+    
 }
 
 /* large laptop  */
 
 @media screen and (min-width: 1024px) and (max-width:1441px) {
     .menu-gap{
-        gap: 50px;
+        gap: 10vw;
     }
 }
 
@@ -64,6 +78,10 @@
 
 @media screen and (min-width: 1440px) {
     .menu-gap{
-        gap: 100px;
+        gap: 10vw;
+    }
+
+    .img-fluid{
+        width: 100vw;
     }
 }
