@@ -1,19 +1,71 @@
-.btn:focus {
-    outline: none;
-    border: none;
-    /* background-color: non; */
-}
+/* custom */
 
 .w-full {
     margin: 0;
     padding: 0;
 }
 
-@media screen and (min-width: 1025px) {
-    .gap-150 {
-        gap: 150px;
+.top-25 {
+    top: 25%;
+}
+
+/* override  */
+.btn:focus {
+    outline: none;
+    border: none;
+}
+
+.menu-gap {
+    gap: 8vw;
+}
+
+/* small mobile  */
+
+@media screen and (max-width: 320px) {}
+
+/* medium mobile  */
+
+@media screen and (min-width: 320px) and (max-width: 375px) {}
+
+/* large mobile */
+
+@media screen and (min-width: 376px) and (max-width: 425px) {}
+
+
+/* tab  */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .menu-gap {
+        gap: 0;
     }
 }
+
+
+
+/* laptop */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .menu-gap {
+        gap: 5vw;
+    }
+}
+
+
+
+/* large laptop */
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+
+
+    .banner-header {
+        font-size: 114px;
+    }
+
+    .banner-paragraph {
+        font-size: 48px;
+    }
+}
+
+/* extra large laptop */
 
 @media screen and (min-width:1441px) {
     .img-fluid {
