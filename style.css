@@ -1,22 +1,22 @@
-.btn:focus{
+body {
+    font-family: 'Dongle';
+}
+
+.btn:focus {
     border: none;
     outline: none;
 }
 
-/* .mt-10vw{
-    margin-top: 10vw;
-} */
-
-.banner-title{
-    /* font-size: 7.125rem; */
-    font-size:5rem ;
+.banner-title {
+    font-size: 7.125rem;
+    /* font-size: 5rem; */
 }
 
-.banner-paragraph{
+.banner-paragraph {
     font-size: 3rem;
 }
 
-.top-25{
+.top-25 {
     top: 25%;
 }
 
@@ -24,30 +24,25 @@
 
 /* small mobile  */
 
-@media screen and (max-width: 320px) {
-    
-}
+@media screen and (max-width: 320px) {}
 
 /* medium mobile  */
 
-@media screen and (min-width: 321px) and (max-width:376px) {
-   
-}
+@media screen and (min-width: 321px) and (max-width:376px) {}
 
 /* large mobile  */
 
-@media screen and (min-width: 375px) and (max-width:426px) {
-    
-}
+@media screen and (min-width: 375px) and (max-width:426px) {}
 
 /* tab  */
 
 @media screen and (min-width: 425px) and (max-width:769px) {
-    .banner-title{
+    .banner-title {
         /* font-size: 7.125rem; */
-        font-size:3rem ;
+        font-size: 3rem;
     }
-    .banner-paragraph{
+
+    .banner-paragraph {
         font-size: 1rem;
     }
 }
@@ -55,20 +50,20 @@
 /* laptop  */
 
 @media screen and (min-width: 769px) and (max-width:1025px) {
-    .menu-gap{
+    .menu-gap {
         gap: 10vw;
     }
 
-    .banner-paragraph{
+    .banner-paragraph {
         font-size: 2rem;
     }
-    
+
 }
 
 /* large laptop  */
 
 @media screen and (min-width: 1024px) and (max-width:1441px) {
-    .menu-gap{
+    .menu-gap {
         gap: 10vw;
     }
 }
@@ -77,11 +72,11 @@
 /* extra large laptop  */
 
 @media screen and (min-width: 1440px) {
-    .menu-gap{
+    .menu-gap {
         gap: 10vw;
     }
 
-    .img-fluid{
+    .img-fluid {
         width: 100vw;
     }
 }
