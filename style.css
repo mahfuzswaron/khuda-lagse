@@ -1,23 +1,26 @@
-/* custom */
+body {
+    font-family: 'Dongle';
+}
 
-.w-full {
-    margin: 0;
-    padding: 0;
+.btn:focus {
+    border: none;
+    outline: none;
+}
+
+.banner-title {
+    font-size: 7.125rem;
+    /* font-size: 5rem; */
+}
+
+.banner-paragraph {
+    font-size: 3rem;
 }
 
 .top-25 {
     top: 25%;
 }
 
-/* override  */
-.btn:focus {
-    outline: none;
-    border: none;
-}
 
-.menu-gap {
-    gap: 8vw;
-}
 
 /* small mobile  */
 
@@ -25,50 +28,55 @@
 
 /* medium mobile  */
 
-@media screen and (min-width: 320px) and (max-width: 375px) {}
+@media screen and (min-width: 321px) and (max-width:376px) {}
 
-/* large mobile */
+/* large mobile  */
 
-@media screen and (min-width: 376px) and (max-width: 425px) {}
-
+@media screen and (min-width: 375px) and (max-width:426px) {}
 
 /* tab  */
-@media screen and (min-width: 426px) and (max-width: 768px) {
-    .menu-gap {
-        gap: 0;
-    }
-}
 
-
-
-/* laptop */
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .menu-gap {
-        gap: 5vw;
-    }
-}
-
-
-
-/* large laptop */
-
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
-
-
-    .banner-header {
-        font-size: 114px;
+@media screen and (min-width: 425px) and (max-width:769px) {
+    .banner-title {
+        /* font-size: 7.125rem; */
+        font-size: 3rem;
     }
 
     .banner-paragraph {
-        font-size: 48px;
+        font-size: 1rem;
     }
 }
 
-/* extra large laptop */
+/* laptop  */
 
-@media screen and (min-width:1441px) {
+@media screen and (min-width: 769px) and (max-width:1025px) {
+    .menu-gap {
+        gap: 10vw;
+    }
+
+    .banner-paragraph {
+        font-size: 2rem;
+    }
+
+}
+
+/* large laptop  */
+
+@media screen and (min-width: 1024px) and (max-width:1441px) {
+    .menu-gap {
+        gap: 10vw;
+    }
+}
+
+
+/* extra large laptop  */
+
+@media screen and (min-width: 1440px) {
+    .menu-gap {
+        gap: 10vw;
+    }
+
     .img-fluid {
-        width: 2560px;
+        width: 100vw;
     }
 }
