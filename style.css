@@ -2,6 +2,14 @@ body {
     font-family: 'Dongle';
 }
 
+.navbar-brand {
+    font-family: 'Inter';
+    background: linear-gradient(90deg, #67666A 0%, #C0C0C2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .btn:focus {
     border: none;
     outline: none;
@@ -20,6 +28,9 @@ body {
     top: 25%;
 }
 
+.container {
+    max-width: 50vw;
+}
 
 
 /* small mobile  */
@@ -32,18 +43,34 @@ body {
 
 /* large mobile  */
 
-@media screen and (min-width: 375px) and (max-width:426px) {}
-
-/* tab  */
-
-@media screen and (min-width: 425px) and (max-width:769px) {
+@media screen and (min-width: 375px) and (max-width:426px) {
     .banner-title {
-        /* font-size: 7.125rem; */
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .banner-paragraph {
         font-size: 1rem;
+    }
+
+    .container {
+        max-width: 60vw;
+    }
+
+    .btn-lg {
+        font-size: 0.825rem;
+    }
+
+}
+
+/* tab  */
+
+@media screen and (min-width: 426px) and (max-width:769px) {
+    .banner-title {
+        font-size: 3rem;
+    }
+
+    .banner-paragraph {
+        font-size: 1.5rem;
     }
 }
 
@@ -52,6 +79,10 @@ body {
 @media screen and (min-width: 769px) and (max-width:1025px) {
     .menu-gap {
         gap: 10vw;
+    }
+
+    .banner-title {
+        font-size: 4.5rem;
     }
 
     .banner-paragraph {
