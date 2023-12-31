@@ -17,7 +17,6 @@ body {
 
 .banner-title {
     font-size: 7.125rem;
-    /* font-size: 5rem; */
 }
 
 .banner-paragraph {
@@ -28,85 +27,24 @@ body {
     top: 25%;
 }
 
-.container {
-    max-width: 50vw;
-}
+/* 
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
 
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
 
-/* small mobile  */
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
 
-@media screen and (max-width: 320px) {}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
 
-/* medium mobile  */
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
 
-@media screen and (min-width: 321px) and (max-width:376px) {}
-
-/* large mobile  */
-
-@media screen and (min-width: 375px) and (max-width:426px) {
-    .banner-title {
-        font-size: 2rem;
-    }
-
-    .banner-paragraph {
-        font-size: 1rem;
-    }
-
-    .container {
-        max-width: 60vw;
-    }
-
-    .btn-lg {
-        font-size: 0.825rem;
-    }
-
-}
-
-/* tab  */
-
-@media screen and (min-width: 426px) and (max-width:769px) {
-    .banner-title {
-        font-size: 3rem;
-    }
-
-    .banner-paragraph {
-        font-size: 1.5rem;
-    }
-}
-
-/* laptop  */
-
-@media screen and (min-width: 769px) and (max-width:1025px) {
-    .menu-gap {
-        gap: 10vw;
-    }
-
-    .banner-title {
-        font-size: 4.5rem;
-    }
-
-    .banner-paragraph {
-        font-size: 2rem;
-    }
-
-}
-
-/* large laptop  */
-
-@media screen and (min-width: 1024px) and (max-width:1441px) {
-    .menu-gap {
-        gap: 10vw;
-    }
-}
-
-
-/* extra large laptop  */
-
-@media screen and (min-width: 1440px) {
-    .menu-gap {
-        gap: 10vw;
-    }
-
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
     .img-fluid {
         width: 100vw;
     }
