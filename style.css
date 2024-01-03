@@ -27,6 +27,10 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 
+.display-1{
+    margin-top: -60px;
+}
+
 
 /* small mobile  */
 
@@ -42,6 +46,14 @@ background-clip: text;
     .btn-lg{
         font-size: 0.8rem;
         padding: 4px;
+    }
+
+    .display-1{
+        font-size: 1rem;
+        margin-top: -15px;
+    }
+    .welcome-p{
+        font-size: 0.8rem;
     }
 }
 
@@ -72,6 +84,14 @@ background-clip: text;
     .mb-top-35 {
         top: 35%;
     }
+
+    .display-1{
+        font-size: 2rem;
+        margin-top: -25px;
+    }
+    .welcome-p{
+        font-size: 1rem;
+    }
 }
 
 /* tab  */
@@ -84,7 +104,11 @@ background-clip: text;
     .banner-paragraph {
         font-size: 2rem;
     }
-
+    
+    .display-1{
+        font-size: 3rem;
+        margin-top: -40px;
+    }
     
 }
 
