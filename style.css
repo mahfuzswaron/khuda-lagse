@@ -62,6 +62,10 @@ background-clip: text;
     .welcome-p{
         font-size: 0.8rem;
     }
+
+    .menu-title{
+        font-size: 1rem;
+    }
 }
 
 /* medium mobile  */
