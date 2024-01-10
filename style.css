@@ -55,6 +55,9 @@ background-clip: text;
     .welcome-p{
         font-size: 0.8rem;
     }
+    .menu-item-title{
+        font-size: 1rem;
+    }
 }
 
 /* medium mobile  */
@@ -90,6 +93,10 @@ background-clip: text;
         margin-top: -25px;
     }
     .welcome-p{
+        font-size: 1rem;
+    }
+
+    .menu-item-title{
         font-size: 1rem;
     }
 }
