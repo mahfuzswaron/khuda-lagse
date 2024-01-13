@@ -51,6 +51,8 @@ body {
     ;
 }
 
+
+
 /* small mobile  */
 
 @media screen and (max-width: 320px) {
@@ -79,6 +81,15 @@ body {
     .menu-item-title {
         font-size: 1rem;
     }
+
+    .display-6 {
+        font-size: 0.5rem;
+    }
+
+    .add-btn {
+        font-size: 0.5rem;
+    }
+
 }
 
 /* medium mobile  */
@@ -87,6 +98,14 @@ body {
     .btn-lg {
         font-size: 0.8rem;
         padding: 8px;
+    }
+
+    .add-btn {
+        font-size: 0.5rem;
+    }
+
+    .display-6 {
+        font-size: 0.5rem;
     }
 }
 
@@ -121,6 +140,23 @@ body {
     .menu-item-title {
         font-size: 1rem;
     }
+
+    .display-6 {
+        font-size: 0.7rem;
+    }
+
+    .pizza-details-label {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .list-parent {
+        padding-left: 5%;
+    }
+
+    .add-btn {
+        font-size: 0.7rem;
+    }
 }
 
 /* tab  */
@@ -137,6 +173,10 @@ body {
     .display-1 {
         font-size: 3rem;
         margin-top: -40px;
+    }
+
+    .display-6 {
+        font-size: 1.5rem;
     }
 
 }
@@ -156,6 +196,9 @@ body {
         max-width: 70vw;
     }
 
+    .display-6 {
+        font-size: 2rem;
+    }
 }
 
 /* large laptop  */
