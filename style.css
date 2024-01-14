@@ -51,6 +51,11 @@ body {
     ;
 }
 
+/* .add-btn{
+    height: 50px;
+    width: 126px;
+} */
+
 /* small mobile  */
 
 @media screen and (max-width: 320px) {
@@ -137,6 +142,10 @@ body {
     .display-1 {
         font-size: 3rem;
         margin-top: -40px;
+    }
+
+    .display-6{
+        font-size: 1.7rem;
     }
 
 }
