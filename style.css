@@ -9,7 +9,6 @@ body {
 
 .banner-title {
     font-size: 7.125rem;
-    /* font-size: 5rem; */
 }
 
 .banner-paragraph {
@@ -101,6 +100,10 @@ body {
         font-size: 0.5rem;
     }
 
+    .pizza-details-label {
+        padding-left: 25%;
+    }
+
 }
 
 /* medium mobile  */
@@ -154,15 +157,6 @@ body {
 
     .display-6 {
         font-size: 0.7rem;
-    }
-
-    .pizza-details-label {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-
-    .list-parent {
-        padding-left: 5%;
     }
 
     .add-btn {
