@@ -51,10 +51,7 @@ body {
     ;
 }
 
-/* .add-btn{
-    height: 50px;
-    width: 126px;
-} */
+
 
 /* small mobile  */
 
@@ -83,6 +80,18 @@ body {
 
     .menu-item-title {
         font-size: 1rem;
+    }
+
+    .display-6{
+        font-size: 0.7rem;
+    }
+
+    .list-parent{
+        padding-left: 5%;
+    }
+    .add-btn{
+        font-size: 0.3rem;
+        border-radius: 3px;
     }
 }
 
@@ -126,6 +135,28 @@ body {
     .menu-item-title {
         font-size: 1rem;
     }
+
+    .display-6{
+        font-size: 1rem;
+    }
+
+    .add-btn{
+        font-size: 0.5rem;
+        padding: 5px 10px;
+    }
+
+    .list-parent {
+        padding-left: 15%;
+    }
+
+    .pizza-details-label {
+        padding-left: 15%;
+        padding-right: 5%;
+    }
+
+    /* .item-list{
+        gap: 1rem !important;
+    } */
 }
 
 /* tab  */
